@@ -55,12 +55,11 @@ const Hero = () => {
             transition={{ duration: 0.8 }}
             className="relative"
           >
-          <img
-  src="/portfolio-hugo/developer.jpg"
-  alt="Développeur Hugo Lamarche"
-  className="rounded-lg shadow-xl w-full max-w-md mx-auto"
-/>
-
+           <img
+            src={`${import.meta.env.BASE_URL}developer.jpg`}
+            alt="Développeur Hugo Lamarche"
+            className="rounded-lg shadow-xl w-full max-w-md mx-auto"
+            />
             <div className="absolute inset-0 bg-gradient-to-tr from-blue-500/20 to-purple-500/20 rounded-lg" />
           </motion.div>
         </div>
