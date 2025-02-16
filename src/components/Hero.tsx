@@ -56,9 +56,9 @@ const Hero = () => {
             className="relative"
           >
            <img
-              src="/developper.jpg"
+              src="/portfolio-hugo/developer.jpg"
                alt="Développeur Hugo Lamarche"
-               className="rounded-lg shadow-xl w-full max-w-md mx-auto"
+              className="rounded-lg shadow-xl w-full max-w-md mx-auto"
             />
             <div className="absolute inset-0 bg-gradient-to-tr from-blue-500/20 to-purple-500/20 rounded-lg" />
           </motion.div>
