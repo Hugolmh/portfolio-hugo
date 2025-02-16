@@ -11,7 +11,7 @@ const Experience = () => {
 
   const experiences = [
     {
-      title: 'Développeur Full Stack',
+      title: 'Développeur Informatique',
       company: 'CNMSS',
       period: '2022 - Présent',
       description: 'Développement et maintenance d\'applications métiers',
@@ -22,7 +22,7 @@ const Experience = () => {
         'Participation aux réunions de projet'
       ],
       icon: <Code className="w-6 h-6" />,
-      tech: ['React', 'Node.js', 'SQL', 'Git']
+      tech: ['Php', 'SQL', 'Git']
     },
     {
       title: 'Projet Principal',

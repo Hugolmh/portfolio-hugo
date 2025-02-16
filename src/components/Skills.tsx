@@ -14,38 +14,36 @@ const Skills = () => {
       title: 'Langages de Programmation',
       icon: <Code className="w-6 h-6" />,
       skills: [
-        { name: 'JavaScript', level: 90 },
-        { name: 'TypeScript', level: 85 },
-        { name: 'Python', level: 75 },
-        { name: 'Java', level: 70 }
+        { name: 'JavaScript', level: 40 },
+        { name: 'TypeScript', level: 20 },
+        { name: 'Python', level: 65 },
+        { name: 'Java', level: 40 }
       ]
     },
     {
       title: 'Frameworks & Librairies',
       icon: <Globe className="w-6 h-6" />,
       skills: [
-        { name: 'React', level: 85 },
-        { name: 'Node.js', level: 80 },
-        { name: 'Express', level: 75 },
-        { name: 'Spring Boot', level: 65 }
+        { name: 'Symfony', level: 60 },
+        { name: 'Node.js', level: 10 },
+        { name: 'Spring Boot', level: 10 }
       ]
     },
     {
       title: 'Base de données',
       icon: <Database className="w-6 h-6" />,
       skills: [
-        { name: 'PostgreSQL', level: 80 },
-        { name: 'MySQL', level: 75 },
-        { name: 'MongoDB', level: 70 }
+        { name: 'PostgreSQL', level: 50 },
+        { name: 'MySQL', level: 50 },
+        { name: 'MongoDB', level: 50 }
       ]
     },
     {
       title: 'Outils & DevOps',
       icon: <Terminal className="w-6 h-6" />,
       skills: [
-        { name: 'Git', level: 85 },
-        { name: 'Docker', level: 70 },
-        { name: 'Linux', level: 75 }
+        { name: 'Git', level: 60 },
+        { name: 'Linux', level: 40 }
       ]
     }
   ];

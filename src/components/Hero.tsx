@@ -23,14 +23,14 @@ const Hero = () => {
             </p>
             <div className="flex space-x-4">
               <a
-                href="mailto:contact@hugolamarche.fr"
+                href="mailto:lamarche.hugo@orange.fr"
                 className="p-2 bg-gray-100 rounded-full hover:bg-gray-200 transition-colors"
                 title="Email"
               >
                 <Mail className="w-6 h-6" />
               </a>
               <a
-                href="https://github.com/hugolamarche"
+                href="https://github.com/hugolmh"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="p-2 bg-gray-100 rounded-full hover:bg-gray-200 transition-colors"
@@ -39,7 +39,7 @@ const Hero = () => {
                 <Github className="w-6 h-6" />
               </a>
               <a
-                href="https://linkedin.com/in/hugolamarche"
+                href="https://www.linkedin.com/in/hugo-lamarche-03a4342b7"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="p-2 bg-gray-100 rounded-full hover:bg-gray-200 transition-colors"
@@ -55,10 +55,10 @@ const Hero = () => {
             transition={{ duration: 0.8 }}
             className="relative"
           >
-            <img
-              src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=800&auto=format&fit=crop&q=80"
-              alt="Hugo Lamarche"
-              className="rounded-lg shadow-xl w-full max-w-md mx-auto"
+           <img
+              src="/developper.jpg"
+               alt="Développeur Hugo Lamarche"
+               className="rounded-lg shadow-xl w-full max-w-md mx-auto"
             />
             <div className="absolute inset-0 bg-gradient-to-tr from-blue-500/20 to-purple-500/20 rounded-lg" />
           </motion.div>

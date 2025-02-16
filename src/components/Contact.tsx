@@ -56,11 +56,11 @@ const Contact = () => {
             </h3>
             <div className="space-y-4">
               <a
-                href="mailto:contact@hugolamarche.fr"
+                href="mailto:lamarche.hugo@orange.fr"
                 className="flex items-center space-x-3 text-gray-700 hover:text-gray-900 transition-colors"
               >
                 <Mail className="w-5 h-5" />
-                <span>contact@hugolamarche.fr</span>
+                <span>lamarche.hugo@orange.fr</span>
               </a>
               <a
                 href="https://github.com/hugolamarche"
